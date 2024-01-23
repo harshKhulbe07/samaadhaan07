@@ -1,0 +1,88 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+} */
+body{
+    background-color: #000000f8;
+    color: aliceblue;
+}
+
+#left{
+    box-sizing: border-box;
+    height: 600px;
+    width: 55%;
+    /* background-color: rgb(74, 77, 84); */
+    margin-top: 50px;
+    margin-left: 40px;
+}
+h1{
+    color: #FFC300 ;
+    font-size: 40px;
+}
+#p1{
+    font-size: 18px;
+    margin-bottom: 0;
+    opacity: 0.9;
+}
+
+#p2{
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+input{
+    border-radius: 5px;
+    background-color: transparent;
+    color: aliceblue;
+    height: 50px;
+    width: 400px;
+    border-color: white;
+}
+
+#nilesh{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-top: 70px;
+    height: 56px;
+    width: 500px;
+    border-radius: 28px;
+    border: solid 2.3px;
+    border-color: white;
+    align-items: center;
+}
+#icon{
+    background-color: salmon;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    object-position: cover;
+    object-position: center;
+}
+
+#username{
+    margin-left: 15px;
+    line-height: 5px;
+}
+
+#google{
+    height: 38px;
+    width: 38px;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+button{
+    height: 56px;
+    width: 500px;
+    border-radius: 28px;
+    background-color: antiquewhite;
+    font-size: 15px;
+}
